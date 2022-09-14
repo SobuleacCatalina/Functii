@@ -1,7 +1,6 @@
-n=int(input("Introdu n: "))
 def formul(x):
     s=0
-    for i in range(x+1):
-        s=s+((1/2)**i)
+    for i in range(0,(x+1),2):
+        s+=0.5**i
     return s
-print(formul(n))
+print(formul(8))
